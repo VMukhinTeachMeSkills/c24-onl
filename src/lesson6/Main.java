@@ -1,5 +1,7 @@
 package lesson6;
 
+import lesson7.Car;
+
 import java.util.Scanner;
 
 public class Main
@@ -7,12 +9,8 @@ public class Main
 
     public static void main(String[] args)
     {
-        Car car = new Car();
+        Car car = new Car(4);
 
-        int sumResult = car.sum(10, 5);
-        System.out.println("Result of sum " + sumResult);
-        car.drive();
-        car.drive("Slava", 1, 2);
     }
 }
 
