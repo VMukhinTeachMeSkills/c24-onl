@@ -1,5 +1,7 @@
 package lesson7;
 
+import java.util.Objects;
+
 public class Car extends Vehicle
 {
     private int wheelsAmount;
